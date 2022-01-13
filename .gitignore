@@ -1,0 +1,30 @@
+# OS X Finder
+.DS_Store
+
+#cmake artifacts
+cmake-build-*/
+
+#Xcode artifacts
+xcuserdata/
+xcshareddata/
+*.xcworkspacedata
+
+#libraries and executables
+*.a
+*.so
+*.cbp
+
+# JetBrains IDE CLion
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/*.iws
+.idea/vcs.xml
+.idea/.name
+Project_Default.xml
+
+# Config file
+*.json
+
+__pycache__/
+venv/
